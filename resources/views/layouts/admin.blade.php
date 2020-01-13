@@ -1,4 +1,4 @@
-!DOCTYPE html>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -29,9 +29,9 @@
         <!-- Logo -->
         <a href="index2.html" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>AD</b>V</span>
+          <span class="logo-mini"><b>Full</b></span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>ADVentas</b></span>
+          <span class="logo-lg"><b>Full-Pro</b></span>
         </a>
 
         <!-- Header Navbar: style can be found in header.less -->
@@ -86,7 +86,11 @@
           <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu">
             <li class="header"></li>
-            
+            <li id="liEscritorio">
+              <a href="{{url('home')}}">
+                <i class="fa fa-dashboard"></i> <span>Escritorio</span>
+              </a>
+            </li>
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-laptop"></i>

@@ -2,7 +2,7 @@
 @section ('contenido')
 <div class="row">
 	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"> <!-- para uso responcive boostrap --> 
-		<h3>Listado de Articulos <a href="articulo/create"><button class="btn btn-success">Nuevo</button></a></h3>
+		<h3>Listado de Artículos <a href="articulo/create"><button class="btn btn-success">Nuevo</button></a> <a href="{{url('reportearticulos')}}" target="_blank"><button class="btn btn-info">Reporte</button></a></h3>
 		@include('almacen.articulo.search') <!-- aqui incluimos la buqueda  -->
 	</div>
 </div>

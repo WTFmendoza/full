@@ -175,6 +175,7 @@ return [
         sisventas\Providers\EventServiceProvider::class,
         sisventas\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        Anouar\Fpdf\FpdfServiceProvider::class,
 
     ],
 
@@ -228,6 +229,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
        'Html' => Collective\Html\HtmlFacade::class,
+       'Fpdf' => Anouar\Fpdf\Facades\Fpdf::class ,
     ],
 
 ];
