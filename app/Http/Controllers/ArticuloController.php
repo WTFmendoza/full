@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\Input;
 use sisventas\Http\Requests\ArticuloFormRequest;
 use sisventas\Articulo;
 use DB;
-use Fpdf;
 
 class ArticuloController extends Controller
 {
